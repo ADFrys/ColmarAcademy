@@ -94,13 +94,110 @@ html {
   text-align: center;
   padding-top: 16px;
   padding-bottom: 16px;
+  transition: color 2s linear 2s;
 }
 
-/* Come back and fix this */
-#button h4:hover {
-  background-color: #BFBFBF;
-  transition: color 1.5s linear 0.5s;
+#button:hover {
+  background-color: #8895B3;
 }
-
 
 /* Learn Something New Banner */
+
+.Practice {
+  padding-top: 32px;
+  display: flex;
+  flex-direction: row;
+  background-color: #E8E8E8;
+}
+
+.leftside {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 24px;
+  flex-direction: column;
+  width: 60%;
+}
+
+.leftside img {
+  width: 100%;
+  height: auto;
+  padding-right: 24px;
+  padding-bottom: 32px;
+}
+
+.leftside h1 {
+  padding-bottom: 24px;
+  font-size: 2rem;
+  font-family: Arimo, sans-serif;
+  font-weight: bold;
+  color: #5E7CE2;
+  width: 100%;
+}
+
+.leftside p {
+  font-family: Open Sans, sans-serif;
+  width: 100%;
+  line-height: 1.5rem;
+  color: #8895B3;
+  font-weight: bold;
+}
+
+.leftside h6 {
+  font-family: Open Sans, sans-serif;
+  line-height: 1.5rem;
+  font-weight: bold;
+  font-size: 0.75rem;
+  color: #8895B3;
+}
+
+.rightside {
+  display: flex;
+  width: 423px;
+  padding-left: 24px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.rightside img {
+  width: 35%;
+  padding-bottom: 16px;
+  height: 35%;
+}
+
+.orientation, .information, .guest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+.date, .campus, .professor {
+  margin-left: 16px;
+  color: #5E7CE2;
+  font-family: Arimo, sans-serif;
+}
+
+.date h4, .campus h4, .professor h4 {
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  padding-bottom: 8px;
+}
+
+.date p, .campus p, .professor p {
+  padding-bottom: 8px;
+  line-height: 1.5rem;
+}
+
+.date a, .campus a, .professor a {
+  text-decoration: none;
+  color: #8895B3;
+}
+
+.guest {
+  background-color: #CEE5F2;
+}
+
+/* Start Learning Section */

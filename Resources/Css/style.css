@@ -201,3 +201,82 @@ html {
 }
 
 /* Start Learning Section */
+
+.start {
+  background-color: #CEE5F2;
+}
+
+.start h1 {
+  font-family: Arimo, sans-serif;
+  font-size: 3rem;
+  color: #5E7CE2;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.lineone {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #CEE5F2;
+}
+
+.box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: #E8E8E8;
+  height: 325px;
+  font-family: Open Sans, sans-serif;
+  width: 25%;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.insidebox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.insidebox img {
+  padding-bottom: 16px;
+  width: 100%;
+}
+
+.insidebox h5 {
+  padding-bottom: 16px;
+  font-weight: bold;
+  color: #5E7CE2;
+}
+
+.insidebox h6, .box p {
+  color: #5E7CE2;
+}
+
+.insidebox h6 {
+  padding-bottom: 8px;
+}
+
+.insidebox p {
+  padding-bottom: 24px;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.linetwo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #CEE5F2;
+  padding-bottom: 32px;
+}
+
+/* Thesis Section */
+
+.thesis {
+  background-color: white;
+}

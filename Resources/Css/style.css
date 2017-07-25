@@ -2,6 +2,12 @@ html {
   font-size: 18px;
 }
 
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
+
 /* header */
 .header {
   display: flex;
@@ -23,12 +29,80 @@ html {
   font-family: Roboto Condensed, sans-serif;
   font-size: 1.5rem;
 }
-
+/* not sure why the links are wrapping */
 .header a {
   text-decoration: none;
   font-family: arimo, sans-serif;
   color: #8895B3;
   margin-right: 16px;
+  flex-wrap: nowrap;
+}
+
+/* Media Queries Section... Ran out of time... I know it is sloppy and doesn't work correctly ... */
+
+@media only screen and (max-width: 480px) {
+  .header {
+    height: 64px;
+  }
+  .header a, .header h5 {
+    display: none;
+  }
+  .LearnSomethingContainer img {
+    display: none;
+    padding-top: 24px;
+  }
+  .LearnSomethingContainer {
+    padding-top: 180px;
+  }
+  #button {
+    margin-bottom: 24px;
+  }
+
+  .leftside img, .leftside p, .leftside h1, .leftside h6 {
+    display: none;
+  }
+
+/* I am not sure why the left side of the flex box still has space reserved for it */
+  .leftside {
+    display: none;
+  }
+
+  .rightside {
+    width: 100%;
+  }
+
+  .start .box {
+    display: none;
+  }
+
+  .start .mobile {
+    background-color: #8895B3;
+    font-weight: bold;
+    padding: 16px 16px;
+    margin-bottom: 8px;
+  }
+
+  .thesis-text h4, .thesis-text p {
+    display: none;
+  }
+
+  .box img, .box2 img, .box h5, .box2 h5, .box p, .box2 p {
+    display: none;
+  }
+
+/*Not sure how to adjust the video*/
+  video {
+    height: auto;
+    width: 450px;
+    width: 100%;
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .mobile {
+    display: none;
+  }
 }
 
 /* Learn Something New Banner */
